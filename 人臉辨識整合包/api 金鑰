@@ -1,0 +1,16 @@
+端點: 
+https://westcentralus.api.cognitive.microsoft.com/face/v1.0
+
+金鑰 1: 
+a3b7cd9386e249298f9d4531d24ccdab
+
+金鑰 2: 
+c10b52d400d045868796ce1dc586d960
+
+
+
+1.先到 req新增成員.py 新增成員並取得成員之personId 
+2.至 req查看群組成員測試.py  查看成員是否新增
+3.至 拍照設置FaceId.py 上傳照片新增成員人臉影像
+4.至 訓練測試.py 讓Azure對影像進行訓練分析
+5.訓練成功就可以至 主程式.py 進行測試打卡
